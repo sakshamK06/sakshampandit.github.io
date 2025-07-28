@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Python with Saksham</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f9fc;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #375a7f;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background: #2c3e50;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 0.75rem 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      text-align: center;
+    }
+    .card {
+      background: white;
+      margin: 1rem auto;
+      padding: 1rem;
+      max-width: 900px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #375a7f;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    button {
+      padding: 0.6rem 1.2rem;
+      background: #375a7f;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #2c3e50;
+    }
+    details {
+      text-align: left;
+      max-width: 800px;
+      margin: 1rem auto;
+      background: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      border-left: 5px solid #375a7f;
+    }
+    summary {
+      font-size: 1.2rem;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    img.logo {
+      width: 120px;
+      margin: 0 auto;
+      display: block;
+    }
+    iframe {
+      width: 100%;
+      height: 350px;
+      border: none;
+      margin-top: 1rem;
+    }
+    #certificate-section {
+      display: none;
+    }
+  </style>
+  <script>
+    function checkCompletion() {
+      const tutorialsCompleted = true; // Simulated condition for now
+      if (tutorialsCompleted) {
+        document.getElementById("certificate-section").style.display = "block";
+      }
+    }
+    window.onload = checkCompletion;
+  </script>
+</head>
+<body>
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Logo" class="logo">
+    <h1>Python with Saksham</h1>
+    <p>Learn Python from the beginning – structured, simple, and strong</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#tutorials">Tutorials</a>
+    <a href="#projects">Projects</a>
+    <a href="#practice">Practice Set</a>
+    <a href="#certificate">Certificate</a>
+    <a href="#contact">Contact</a>
+    <a href="#feedback">Feedback</a>
+    <a href="https://forms.gle/5dVyQz1x1sxzi7aF6" target="_blank">Register</a>
+  </nav>
+
+  <section id="home">
+    <div class="card">
+      <h2>What is Python?</h2>
+      <p><strong>Python</strong> is a high-level, interpreted, general-purpose programming language. It emphasizes code readability and simplicity. It was created by <strong>Guido van Rossum</strong> and released in 1991. Python supports multiple programming paradigms and has a large standard library.</p>
+      <p>It is widely used in: Web Development, Data Science, Machine Learning, Automation, Game Development, Cybersecurity, and more.</p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Guido-portrait-2014-drc.jpg" alt="Guido van Rossum" width="200">
+      <p>Python is an open-source language maintained by the Python Software Foundation (PSF).</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="card">
+      <h2>Python Projects</h2>
+      <p>Apply your knowledge to real-world projects:</p>
+      <ul style="text-align: left">
+        <li><strong>To-Do List App:</strong> Simple CRUD app with task manager. <a href="https://www.youtube.com/watch?v=lh8lT5Qcb1I" target="_blank">Watch</a></li>
+        <li><strong>Weather App:</strong> Use weather API to show city-based data. <a href="https://www.youtube.com/watch?v=f4KOjWS_KZs" target="_blank">Watch</a></li>
+        <li><strong>Quiz Game:</strong> Build a console-based Q&A game. <a href="https://www.youtube.com/watch?v=do6om4nw5MU" target="_blank">Watch</a></li>
+        <li><strong>Expense Tracker:</strong> Track monthly expenses via terminal. <a href="https://www.youtube.com/watch?v=eIrMbAQSU34" target="_blank">Watch</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="practice">
+    <div class="card">
+      <h2>Practice Set – Unlock After Basics</h2>
+      <p>Practice questions to test your learning:</p>
+      <ul style="text-align: left">
+        <li><strong>Beginner:</strong> Print name, sum of 2 numbers, even/odd checker</li>
+        <li><strong>Intermediate:</strong> Reverse string, palindrome, list operations</li>
+        <li><strong>Advanced:</strong> File handling, exception practice, mini projects</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="certificate">
+    <div class="card" id="certificate-section">
+      <h2>🎓 Get Your Certificate</h2>
+      <p>Congratulations on completing all tutorials!</p>
+      <p>Click below to fill the form and request your signed certificate.</p>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScYOlq4nCy7BQO3Ndo1H6fhgy9mkzsmuOfEnEDWKyN5g7u5Lw/viewform" target="_blank">
+        <button>Request Certificate</button>
+      </a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="card">
+      <h2>Contact Me</h2>
+      <p><strong>Phone:</strong> <a href="tel:+917830714301">+91 7830714301</a></p>
+      <p><strong>Email:</strong> <a href="mailto:katarasaksham05@gmail.com">katarasaksham05@gmail.com</a></p>
+      <p><strong>Instagram:</strong> <a href="https://instagram.com/pythonwithsaksham" target="_blank">@pythonwithsaksham</a></p>
+    </div>
+  </section>
+
+  <section id="feedback">
+    <div class="card">
+      <h2>Feedback</h2>
+      <p>We’d love your feedback. Please share your thoughts.</p>
+      <a href="https://forms.gle/XsJ5KPX3yHvM6L2z9" target="_blank">
+        <button>Give Feedback</button>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Python with Saksham | All rights reserved
+  </footer>
+</body>
+</html>
